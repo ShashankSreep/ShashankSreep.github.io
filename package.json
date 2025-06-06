@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ShashankSreep.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "vite build && cp dist/index.html dist/404.html && cp CNAME dist/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
