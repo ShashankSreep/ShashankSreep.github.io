@@ -3,6 +3,9 @@
 ## User Instructions
 To view the website, please visit https://shashanksree.com. This is the custom domain that is hosting the website. 
 
+NOTE: I created this repo to host the page through a userpage. I initially created another repo, to do the actual development, but then moved to this repo. 
+To view ALL of the commit history, please visit the following repo: https://github.com/ShashankSreep/cse461.github.io
+
 
 # Tech Stack
 This project is made using Vite, Typescript, React, and Tailwind CSS
